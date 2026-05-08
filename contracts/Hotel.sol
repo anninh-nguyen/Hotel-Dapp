@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 contract Hotel {
     uint public constant maxRooms = 20;
     uint public roomsAvailable = maxRooms;
-    address payable owner = payable(0xF3bA650f3BB16dc176aa30fa2EB07Ec0cb7E1B26);
+    address payable owner = payable(0xd4198C136cDd15828b01Aa0cDB505fcB9F4e247A);
 
     mapping(address => bool) hasBooking;
 

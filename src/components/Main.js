@@ -34,7 +34,6 @@ const Main = ({ state }) => {
     try {
       const { contract } = state;
       const roomCount = await contract.room();
-
       if (roomCount.toNumber() === 0) {
         alert("No rooms available");
         return;
@@ -1867,7 +1866,7 @@ const Main = ({ state }) => {
                                 
                               }}
                             >
-                              Guests can pay by Debit/ Credit Card (VISA &
+                              Guests can pay by ETH, Debit/ Credit Card (VISA &
                               Mastercard)
                             </p>
                           </div>
