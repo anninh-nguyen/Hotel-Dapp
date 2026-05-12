@@ -3,9 +3,9 @@ const ethers = require("ethers");
 
 const Main = ({ state }) => {
   const { ethereum } = window;
-  const [roomCount, setRoomCount] = useState(null);
+  // const [roomCount, setRoomCount] = useState(null);
   const [booked, setBooked] = useState(false);
-  const [showRoomCount, setShowRoomCount] = useState(false);
+  // const [showRoomCount, setShowRoomCount] = useState(false);
 
   const handleBookingError = (error) => {
     console.error("Error booking room:", error);
@@ -40,10 +40,10 @@ const Main = ({ state }) => {
         return;
       }
       const parsedRoomCount = roomCount.toNumber();
-      setRoomCount(parsedRoomCount);
+      // setRoomCount(parsedRoomCount);
 
       if (parsedRoomCount !== null) {
-        setShowRoomCount(true);
+        // setShowRoomCount(true);
         alert(`${parsedRoomCount} similar rooms available`);
       }
     } catch (error) {
