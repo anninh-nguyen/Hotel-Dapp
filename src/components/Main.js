@@ -8,7 +8,8 @@ const Main = ({ state }) => {
   const [showRoomCount, setShowRoomCount] = useState(false);
 
   const handleBookingError = (error) => {
-    alert("Error booking");
+    console.error("Error booking room:", error);
+    alert("Error booking room: " + (error.data?.message || error.message || "Unknown error"));
   };
 
   const book = async () => {
@@ -18,7 +19,7 @@ const Main = ({ state }) => {
     }
 
     const { contract } = state;
-    const value = ethers.utils.parseEther("10");
+    const value = ethers.utils.parseEther("0.001");
 
     try {
       const transaction = await contract.book({ value });
@@ -43,7 +44,7 @@ const Main = ({ state }) => {
 
       if (parsedRoomCount !== null) {
         setShowRoomCount(true);
-        alert(`${parsedRoomCount} rooms available`);
+        alert(`${parsedRoomCount} similar rooms available`);
       }
     } catch (error) {
       console.error("Error fetching room count:", error);
@@ -62,7 +63,9 @@ const Main = ({ state }) => {
         alert("You do not have a booking.");
       }
 
-    } catch (error) { }
+    } catch (error) {
+      console.error("Error checking booking:", error);
+    }
   };
 
 
@@ -79,7 +82,7 @@ const Main = ({ state }) => {
       await checkingOut.wait();
       alert("Checked Out Successfully");
     } catch (error) {
-      alert("No rooms booked");
+      console.error("Error checking out:", error);
     }
   };
 
@@ -326,7 +329,7 @@ const Main = ({ state }) => {
                                       
                                     }}
                                   >
-                                    Check Availability
+                                    Check booking status
                                   </p>
                                 </div>
                               </h4>
@@ -1174,7 +1177,7 @@ const Main = ({ state }) => {
                                   
                                 }}
                               >
-                                Free breakfast on select plans
+                                Free breakfast on selected plans
                               </p>
                               <div
                                 className="sc-eldPxv mb-1"
@@ -1917,65 +1920,6 @@ const Main = ({ state }) => {
                             
                           }}
                         />
-                        <button
-                          className="sc-jEACwC eSvKVY"
-                          style={{
-                            margin: "0px",
-                            border: "1px solid rgb(26, 26, 26)",
-                            textDecoration: "none",
-                            padding: "8px 12px",
-                            borderRadius: "8px",
-                            display: "flex",
-                            WebkitBoxPack: "center",
-                            justifyContent: "center",
-                            WebkitBoxAlign: "center",
-                            alignItems: "center",
-                            boxSizing: "border-box",
-                            position: "relative",
-                            userSelect: "none",
-                            cursor: "pointer",
-                            backgroundColor: "rgb(244, 244,  244)",
-                            height: "40px",
-                            minWidth: "300px",
-                            
-                          }}
-                        >
-                          <div
-                            className="sc-aXZVg bMRyuJ"
-                            style={{
-                              margin: "0px",
-                              padding: "0px",
-                              boxSizing: "border-box",
-                              paddingLeft: "4px",
-                              paddingRight: "4px",
-                              
-                            }}
-                          >
-                            <h4
-                              className="sc-gEvEer zbwru"
-                              color="#1A1A1A"
-                              cursor="pointer"
-                              fontSize="14px"
-                              fontStyle="none"
-                              fontWeight="600"
-                              textDecoration="none"
-                              style={{
-                                margin: "0px",
-                                padding: "0px",
-                                boxSizing: "border-box",
-                                textDecoration: "none",
-                                fontSize: "14px",
-                                fontWeight: 600,
-                                lineHeight: "20px",
-                                color: "rgb(26, 26, 26)",
-                                cursor: "pointer",
-                                
-                              }}
-                            >
-                              See all rules
-                            </h4>
-                          </div>
-                        </button>
                         <div
                           className="sc-cPiKLX xlTWr my-8"
                           style={{
@@ -3049,7 +2993,7 @@ const Main = ({ state }) => {
                                   
                                 }}
                               >
-                                10 ETH
+                                0.001 ETH
                               </h4>
 
                               <h4
@@ -3107,7 +3051,7 @@ const Main = ({ state }) => {
                                   
                                 }}
                               >
-                                200 ETH
+                                0.002 ETH
                               </p>
                               <p
                                 className="sc-gEvEer jcpauU mr-1"
@@ -3131,7 +3075,7 @@ const Main = ({ state }) => {
                                   
                                 }}
                               >
-                                95% off
+                                50% off
                               </p>
                             </div>
                           </div>
