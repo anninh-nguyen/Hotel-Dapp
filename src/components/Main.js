@@ -487,7 +487,7 @@ const Main = ({ state }) => {
                             className="br-4 image-fit-cover"
                             height={48}
                             width={48}
-                            alt="Resort XYZ"
+                            alt="Scandic Kuopio"
                             src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/596315830.jpg?k=d37b4fdd0bd87f0a634efb94c6e5f41f53e87600e4653053238f1dedeab199ca&o="
                             style={{
                               margin: "0px",
@@ -2137,6 +2137,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654340250.jpg?k=ed98df789bae131804ccaf4bc7087c4cba8b3c0d646b39b23723bbe10dcb0cfc&o="
                                           tabIndex="-1"
                                           style={{
@@ -2204,6 +2205,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654340074.jpg?k=eac83041159f00bcee4ad52661a082162910d89144718ecb4a154cd14b988640&o="
                                           tabIndex="-1"
                                           style={{
@@ -2271,6 +2273,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654340293.jpg?k=9664ba3d4d3ff2bb2be30293cca3fa10d1c287d3b332088e1e8c8b8579481613&o="
                                           tabIndex="-1"
                                           style={{
@@ -2338,6 +2341,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654340097.jpg?k=6b4da774686d719837ad624da07279832036e7274ad4024cb9e7138946ef9d4b&o="
                                           tabIndex="-1"
                                           style={{
@@ -2405,6 +2409,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654340144.jpg?k=43d5bdb0a768d118f31a6453ee5e671392951f1699bf6601d5fce97033899b12&o="
                                           tabIndex="-1"
                                           style={{
@@ -2472,6 +2477,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654339964.jpg?k=da3978bd338f1ad19d4eae1984a9060eb060b213f74b488c9a865d0f2be84590&o="
                                           tabIndex="-1"
                                           style={{
@@ -2538,6 +2544,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654340068.jpg?k=cbeb264ba700e511fa46af0cd489567ccf7b481c73b9194b30f4d3c591e76d8d&o="
                                           tabIndex="-1"
                                           style={{
@@ -2604,6 +2611,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654340118.jpg?k=b3c2e3e518f66033f5f756cedced198f7188d37871fb61d070f0e38d6a80c5cb&o="
                                           tabIndex="-1"
                                           style={{
@@ -2670,6 +2678,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654340139.jpg?k=62e67412daf04ff0c526f6c087cde144825e29eefc74cb45973c7dfef43f69b7&o="
                                           tabIndex="-1"
                                           style={{
@@ -2736,6 +2745,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654340146.jpg?k=d01a2172aac0bc112caf523cf852be12667787f8708b60546a7ec6055521b1b3&o="
                                           tabIndex="-1"
                                           style={{
@@ -2802,6 +2812,7 @@ const Main = ({ state }) => {
                                           className="image-fit-cover c-pointer"
                                           height={408}
                                           width={600}
+                                          alt="Scandic Kuopio"
                                           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/654340166.jpg?k=601195336adec70b46fb532a4058395f58ae9bcee1ecb8ae054ff7ff07c393f6&o="
                                           tabIndex="-1"
                                           style={{
