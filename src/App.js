@@ -15,7 +15,7 @@ function App() {
 
   const connectWallet = async () => {
     // Replace with your deployed contract address
-    const contractAddress = "0x57CC7EF28DcC424c0f69627b16287707FC20878C"; 
+    const contractAddress = "0xf83FdD08399a248cf6A5561B9616D3Df4c3351eB"; 
     const contractABI = abi.abi;
     try {
       const { ethereum } = window;
