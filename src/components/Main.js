@@ -3,14 +3,7 @@ const ethers = require("ethers");
 
 const Main = ({ state }) => {
   const { ethereum } = window;
-  // const [roomCount, setRoomCount] = useState(null);
   const [booked, setBooked] = useState(false);
-  // const [showRoomCount, setShowRoomCount] = useState(false);
-
-  const handleBookingError = (error) => {
-    console.error("Error booking room:", error);
-    alert("Error booking room: " + (error.data?.message || error.message || "Unknown error"));
-  };
 
   const book = async () => {
     if (!ethereum) {
