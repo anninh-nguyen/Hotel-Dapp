@@ -26,7 +26,7 @@ const Main = ({ state }) => {
       await transaction.wait();
       alert("Room booked successfully");
     } catch (error) {
-      handleBookingError(error);
+      alert("You have already booked a room and cannot book another one.");
       console.error("Error booking room:", error);
     }
   };
